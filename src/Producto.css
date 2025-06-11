@@ -1,0 +1,14 @@
+.producto {
+    border: 1px solid #253036;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #253036;
+}
+
+.producto img {
+    width: 30vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
