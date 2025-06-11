@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <div className='app'>
-        <h1>Lista de Productos</h1>
+        <h1 className='titulo'>Lista de Productos</h1>
           <div className='lista-productos'>
             <Productos 
-            nombre="Auricurales"
+            nombre="Auriculares"
             precio="120"
             categoria="Electronica"
             imagen="Auriculares.png" 
@@ -23,7 +23,14 @@ function App() {
             imagen="Agua.png" 
             />
           </div>
-          <div></div>
+          <div className='lista-productos'>
+            <Productos 
+            nombre="Libro de React"
+            precio="90"
+            categoria="Educacion"
+            imagen="Libro.png"
+            />
+          </div>
       </div>
     </>
   )

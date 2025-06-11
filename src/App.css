@@ -3,9 +3,22 @@
   padding: 20px;
   background-color: #FFFFFF;
   color: #253036;
+  display: flex;
+  border: 1px solid #253036;
+  margin-top: 270px;
+  width: 70vw;
 }
 
 .lista-productos {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.titulo {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #253036;
 }
